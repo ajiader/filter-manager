@@ -9,7 +9,7 @@ A filter manager package for the product list filter, help you elegant generate 
 # Install
 
 ```php
-composer require 'toplan/filter-manager:~1.0.4'
+composer require 'ajiader/filter-manager:~1.0.4'
 ```
 
 # Usage
