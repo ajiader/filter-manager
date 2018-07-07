@@ -21,7 +21,7 @@ class FilterManagerServiceProvider extends ServiceProvider
      */
     public function register()
     {
-         $this->app->singleton(FilterManager::class, function ($app) {
+        $this->app->singleton('FilterManager',function(){
             return FilterManager::create(Input::all())->setBlackList(['page']);
         });
     }
